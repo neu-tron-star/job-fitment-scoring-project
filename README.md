@@ -31,3 +31,13 @@ GEMINI_API_KEY= "your api key"
 
 then finally run command:
 
+python -m uvicorn app:app --reload 
+
+and navigate to http://127.0.0.1:8000/docs to test the API
+
+click on try it out
+<img width="1820" height="900" alt="image" src="https://github.com/user-attachments/assets/d5d8ba16-cf4a-436b-adfc-b1a49ec3f2f3" />
+
+input the jd (text) and upload cv (pdf)
+and click Execute to get result
+<img width="1167" height="925" alt="image" src="https://github.com/user-attachments/assets/2e6284bf-79c1-45f6-bb30-ef71f1a90645" />
